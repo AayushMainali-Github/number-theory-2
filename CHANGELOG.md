@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.1.0] - 2025-10-30 - Arithmetic, Primes & Sequences Expansion
+## [0.1.2] - 2025-10-29 - Updated Changelog
+
+- Updated/Edited the changelog for past version
+
+## [0.1.1] - 2025-10-29 - Fixed Imports
+
+- Fixed imports for arithmetic, prime, and sequence functions
+
+## [0.1.0] - 2025-10-29 - Arithmetic, Primes & Sequences Expansion
 
 - Added arithmetic functions:
   - `extendedGCD(a, b)` – Extended Greatest Common Divisor
