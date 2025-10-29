@@ -1,0 +1,48 @@
+{
+  "name": "number-theory-2",
+  "version": "0.0.1",
+  "description": "A modern JavaScript library for number theory and modular arithmetic — including primes, totients, modular inverses, and more.",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "number theory",
+    "math",
+    "modular arithmetic",
+    "prime",
+    "cryptography",
+    "totient",
+    "mobius",
+    "gcd",
+    "lcm"
+  ],
+  "author": {
+    "name": "Aayush Mainali",
+    "email": "aayushmainali.codes@gmail.com",
+    "url": "https://github.com/AayushMainali-Github"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AayushMainali-Github/number-theory-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AayushMainali-Github/number-theory-2/issues"
+  },
+  "homepage": "https://github.com/AayushMainali-Github/number-theory-2#readme",
+  "scripts": {
+    "lint": "eslint src --fix",
+    "test": "node --test",
+    "build": "rollup -c",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "prettier": "^3.6.2",
+    "rollup": "^4.52.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
