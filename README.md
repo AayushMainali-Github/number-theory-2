@@ -38,12 +38,24 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 ### Arithmetic
 
+- `extendedGCD(a, b)` – Extended Greatest Common Divisor
 - `gcd(a, b)` – Greatest Common Divisor using Euclid’s algorithm
+- `lcm(a, b)` – Least Common Multiple using the formula `lcm(a, b) = |a*b| / gcd(a, b)`
 - `mod(a, b)` – Modular remainder (handles negative numbers and BigInts)
+
+### Prime
+
+- `isPrime(n)` – Checks if a number is prime
+- `sieve(n)` – Generates all primes up to n using the Sieve of Eratosthenes
+- `sieveRange(a, b)` – Generates all primes between a and b (inclusive) using the Sieve of Eratosthenes
+
 
 ### Sequence
 
 - `fibonacci(n)` – Generates Fibonacci sequence up to the n-th term
+- `lucas(n)` – Generates Lucas sequence up to the n-th term
+- `nthFibonacci(n)` – Returns the n-th Fibonacci number
+- `nthLucas(n)` – Returns the n-th Lucas number
 
 ---
 
