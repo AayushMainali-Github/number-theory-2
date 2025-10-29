@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.2] - 2025-10-29 - Expanded Tests
+
+- Added 5 more tests for fibonacci function
+
 ## [0.0.1] - 2025-10-29 - Initial Release
 
 - Added core arithmetic functions:
@@ -9,5 +13,3 @@ All notable changes to this project will be documented in this file.
   - `mod(a, b)` – Modular remainder (handles negatives & BigInts)
 - Added sequence generator:
   - `fibonacci(n)` – Generate Fibonacci sequence up to n-th term
-
----

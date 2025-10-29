@@ -117,4 +117,43 @@ describe("fibonacci()", () => {
     const seq = fibonacci(20n);
     assert.strictEqual(seq.length, 21);
   });
+
+  // 21. Fibonacci sequence length verification
+  test("fibonacci(30) → returns 31 terms", () => {
+    const seq = fibonacci(30);
+    assert.strictEqual(seq.length, 31);
+  });
+
+  // 22. Fibonacci golden ratio property (F(n+1)/F(n) approaches φ)
+  test("fibonacci(40) → golden ratio approximation", () => {
+    const seq = fibonacci(40);
+    const ratio = Number(seq[40]) / Number(seq[39]);
+    const goldenRatio = (1 + Math.sqrt(5)) / 2;
+    assert.ok(Math.abs(ratio - goldenRatio) < 0.001);
+  });
+
+  // 23. Fibonacci sum property: F(0) + F(1) + ... + F(n) = F(n+2) - 1
+  test("fibonacci(20) → sum property verification", () => {
+    const seq = fibonacci(22);
+    const sum = seq.slice(0, 21).reduce((a, b) => a + b, 0n);
+    assert.strictEqual(sum, seq[22] - 1n);
+  });
+
+  // 24. Fibonacci even-indexed terms sum
+  test("fibonacci(20) → even-indexed sum = F(21) - 1", () => {
+    const seq = fibonacci(21);
+    const evenSum = seq
+      .filter((_, i) => i % 2 === 0)
+      .reduce((a, b) => a + b, 0n);
+    assert.strictEqual(evenSum, seq[21] - 1n);
+  });
+
+  // 25. Fibonacci odd-indexed terms sum
+  test("fibonacci(20) → odd-indexed sum = F(20)", () => {
+    const seq = fibonacci(20);
+    const oddSum = seq
+      .filter((_, i) => i % 2 === 1)
+      .reduce((a, b) => a + b, 0n);
+    assert.strictEqual(oddSum, seq[20]);
+  });
 });
