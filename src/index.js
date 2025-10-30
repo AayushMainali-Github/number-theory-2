@@ -4,6 +4,7 @@
 // ===========================
 
 // Arithmetic Functions
+export { divisors } from "./arithmetic/divisors.js";
 export { extendedGCD } from "./arithmetic/extendedGCD.js";
 export { gcd } from "./arithmetic/gcd.js";
 export { lcm } from "./arithmetic/lcm.js";

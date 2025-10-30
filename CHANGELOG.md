@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [0.2.0] - 2025-10-30 - Arithmetic, Combinatorics and Prime Expansion [ONGOING]
 
 - Added arithmetic functions: 
+  - `divisors(n)` – Returns all positive divisors of a given integer n
   - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
 - Added combinatorics functions:
   - `factorial(n)` – Computes the factorial of n (n!)
