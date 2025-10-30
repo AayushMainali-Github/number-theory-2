@@ -42,13 +42,14 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `gcd(a, b)` – Greatest Common Divisor using Euclid’s algorithm
 - `lcm(a, b)` – Least Common Multiple using the formula `lcm(a, b) = |a*b| / gcd(a, b)`
 - `mod(a, b)` – Modular remainder (handles negative numbers and BigInts)
+- `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
 
 ### Prime
 
 - `isPrime(n)` – Checks if a number is prime
+- `nextPrime(n)` – Finds the smallest prime number greater than n
 - `sieve(n)` – Generates all primes up to n using the Sieve of Eratosthenes
 - `sieveRange(a, b)` – Generates all primes between a and b (inclusive) using the Sieve of Eratosthenes
-
 
 ### Sequence
 

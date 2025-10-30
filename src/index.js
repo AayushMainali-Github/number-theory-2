@@ -8,9 +8,11 @@ export { extendedGCD } from "./arithmetic/extendedGCD.js";
 export { gcd } from "./arithmetic/gcd.js";
 export { lcm } from "./arithmetic/lcm.js";
 export { mod } from "./arithmetic/mod.js";
+export { modInverse } from "./arithmetic/modInverse.js";
 
 // Prime Functions
 export { isPrime } from "./prime/isPrime.js";
+export { nextPrime } from "./prime/nextPrime.js";
 export { sieve } from "./prime/sieve.js";
 export { sieveRange } from "./prime/sieveRange.js";
 
