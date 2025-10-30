@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2025-10-30 - Arithmetic, Combinatorics and Prime Expansion [ONGOING]
+
+- Added arithmetic functions: 
+  - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
+- Added combinatorics functions:
+  - `factorial(n)` – Computes the factorial of n (n!)
+  - `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
+  - `combination(n, r)` – Computes the number of combinations of n items taken r at a time
+- Added prime functions:
+  - `nextPrime(n)` – Finds the smallest prime number greater than n
+
 ## [0.1.2] - 2025-10-29 - Updated Changelog
 
 - Updated/Edited the changelog for past version
@@ -10,7 +21,7 @@ All notable changes to this project will be documented in this file.
 
 - Fixed imports for arithmetic, prime, and sequence functions
 
-## [0.1.0] - 2025-10-29 - Arithmetic, Primes & Sequences Expansion
+## [0.1.0] - 2025-10-29 - Arithmetic, Prime & Sequence Expansion
 
 - Added arithmetic functions:
   - `extendedGCD(a, b)` – Extended Greatest Common Divisor

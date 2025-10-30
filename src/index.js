@@ -10,6 +10,11 @@ export { lcm } from "./arithmetic/lcm.js";
 export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
 
+// Combinatorics Functions
+export { factorial } from "./combinatorics/factorial.js";
+export { permutation } from "./combinatorics/permutation.js";
+export { combination } from "./combinatorics/combination.js";
+
 // Prime Functions
 export { isPrime } from "./prime/isPrime.js";
 export { nextPrime } from "./prime/nextPrime.js";
