@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.2.0] - 2025-10-30 - Arithmetic, Combinatorics and Prime Expansion [ONGOING]
+## [0.2.0] - 2025-10-30 - Arithmetic, Combinatorics and Prime Expansion
 
 - Added arithmetic functions: 
   - `divisors(n)` – Returns all positive divisors of a given integer n
