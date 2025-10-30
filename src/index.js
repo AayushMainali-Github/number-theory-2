@@ -18,6 +18,8 @@ export { combination } from "./combinatorics/combination.js";
 // Prime Functions
 export { isPrime } from "./prime/isPrime.js";
 export { nextPrime } from "./prime/nextPrime.js";
+export { primeFactorization } from "./prime/primeFactorization.js";
+export { primeFactors } from "./prime/primeFactors.js";
 export { sieve } from "./prime/sieve.js";
 export { sieveRange } from "./prime/sieveRange.js";
 

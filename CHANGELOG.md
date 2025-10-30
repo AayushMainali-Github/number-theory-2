@@ -11,6 +11,8 @@ All notable changes to this project will be documented in this file.
   - `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
   - `combination(n, r)` – Computes the number of combinations of n items taken r at a time
 - Added prime functions:
+  - `primeFactorization(n)` – Returns the full prime factorization of n as an array of objects `{ prime, power }`.
+  - `primeFactors(n)` – Returns the distinct prime factors of n as an array of BigInts.
   - `nextPrime(n)` – Finds the smallest prime number greater than n
 
 ## [0.1.2] - 2025-10-29 - Updated Changelog
