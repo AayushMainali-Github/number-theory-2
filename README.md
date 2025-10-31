@@ -54,6 +54,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 ### Function
 
 - `mobius(n)` – Computes the Möbius function μ(n)
+- `sigma(n)` – Computes the sum of all positive divisors of n — the classical sigma function σ(n)
 - `totient(n)` – Computes Euler's Totient Function φ(n)
 
 ### Prime
