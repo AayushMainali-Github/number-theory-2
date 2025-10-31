@@ -6,7 +6,8 @@ All notable changes to this project will be documented in this file.
 
 - Added function functions:
   - `mobius(n)` – Computes the Möbius function μ(n)
-  - `sigma(n)` – Computes the sum of all positive divisors of n — the classical sigma function σ(n)
+  - `sigma(n)` – Computes the sum of all positive divisors of n
+  - `tau(n)` – Computes the number of positive divisors of n
   - `totient(n)` – Computes Euler's Totient Function φ(n)
 - Added prime functions:
   - `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)
