@@ -4,12 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## [0.3.0] - 2025-10-31 - Prime and Function Expansions - [ONGOING]
 
+- Added function functions:
+  - `totient(n)` – Computes Euler's Totient Function φ(n)
 - Added prime functions:
   - `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)
 
 ## [0.2.0] - 2025-10-30 - Arithmetic, Combinatorics and Prime Expansion
 
-- Added arithmetic functions: 
+- Added arithmetic functions:
   - `divisors(n)` – Returns all positive divisors of a given integer n
   - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
 - Added combinatorics functions:

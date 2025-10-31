@@ -13,7 +13,8 @@
  */
 export function factorial(n) {
   n = BigInt(n);
-  if (n < 0n) throw new RangeError("Factorial is not defined for negative numbers");
+  if (n < 0n)
+    throw new RangeError("Factorial is not defined for negative numbers");
 
   let result = 1n;
   for (let i = 2n; i <= n; i++) {

@@ -51,6 +51,10 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
 - `combination(n, r)` – Computes the number of combinations of n items taken r at a time
 
+### Function
+
+- `totient(n)` – Computes Euler's Totient Function φ(n)
+
 ### Prime
 
 - `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)

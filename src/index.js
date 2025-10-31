@@ -16,6 +16,9 @@ export { factorial } from "./combinatorics/factorial.js";
 export { permutation } from "./combinatorics/permutation.js";
 export { combination } from "./combinatorics/combination.js";
 
+// Function Functions
+export { totient } from "./function/totient.js";
+
 // Prime Functions
 export { isCoprime } from "./prime/isCoprime.js";
 export { isPrime } from "./prime/isPrime.js";
