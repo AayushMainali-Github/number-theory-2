@@ -17,6 +17,7 @@ export { permutation } from "./combinatorics/permutation.js";
 export { combination } from "./combinatorics/combination.js";
 
 // Prime Functions
+export { isCoprime } from "./prime/isCoprime.js";
 export { isPrime } from "./prime/isPrime.js";
 export { nextPrime } from "./prime/nextPrime.js";
 export { primeFactorization } from "./prime/primeFactorization.js";

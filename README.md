@@ -53,6 +53,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 ### Prime
 
+- `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)
 - `isPrime(n)` – Checks if a number is prime
 - `nextPrime(n)` – Finds the smallest prime number greater than n
 - `primeFactorization(n)` – Returns the full prime factorization of n as an array of objects `{ prime, power }`.
