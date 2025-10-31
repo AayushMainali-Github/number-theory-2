@@ -17,6 +17,7 @@ export { permutation } from "./combinatorics/permutation.js";
 export { combination } from "./combinatorics/combination.js";
 
 // Function Functions
+export { mobius } from "./function/mobius.js";
 export { totient } from "./function/totient.js";
 
 // Prime Functions

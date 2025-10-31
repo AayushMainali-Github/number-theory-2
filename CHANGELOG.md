@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [0.3.0] - 2025-10-31 - Prime and Function Expansions - [ONGOING]
 
 - Added function functions:
+  - `mobius(n)` – Computes the Möbius function μ(n)
   - `totient(n)` – Computes Euler's Totient Function φ(n)
 - Added prime functions:
   - `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)
