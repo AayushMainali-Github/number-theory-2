@@ -11,6 +11,8 @@ All notable changes to this project will be documented in this file.
   - `tau(n)` – Computes the number of positive divisors of n
   - `totient(n)` – Computes Euler's Totient Function φ(n)
 - Added prime functions:
+  - `countPrimes(n)` – Counts the number of prime numbers ≤ n
+  - `countPrimesInRange(a, b)` – Counts the number of prime numbers between a and b (inclusive)
   - `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)
 
 ## [0.2.0] - 2025-10-30 - Arithmetic, Combinatorics and Prime Expansion

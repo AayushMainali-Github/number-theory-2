@@ -24,6 +24,8 @@ export { tau } from "./function/tau.js";
 export { totient } from "./function/totient.js";
 
 // Prime Functions
+export { countPrimes } from "./prime/countPrimes.js";
+export { countPrimesInRange } from "./prime/countPrimesInRange.js";
 export { isCoprime } from "./prime/isCoprime.js";
 export { isPrime } from "./prime/isPrime.js";
 export { nextPrime } from "./prime/nextPrime.js";
