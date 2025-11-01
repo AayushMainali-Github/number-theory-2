@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ### [0.4.0] - 2025-10-31 - Function Expansions - [ONGOING]
 
 - Added function functions:
+  - `isAbundant(n)` – Checks if a number n is Abundant
+  - `isDeficient(n)` – Checks if a number n is Deficient
+  - `isPerfect(n)` – Checks if a number n is Perfect
   - `productOfDigits(n)` – Computes the product of the digits of an integer n
   - `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 

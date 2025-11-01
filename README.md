@@ -54,6 +54,9 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 ### Function
 
 - `carmichael(n)` – Computes the Carmichael function λ(n)
+- `isAbundant(n)` – Checks if a number n is Abundant
+- `isDeficient(n)` – Checks if a number n is Deficient
+- `isPerfect(n)` – Checks if a number n is Perfect
 - `mobius(n)` – Computes the Möbius function μ(n)
 - `productOfDigits(n)` – Computes the product of the digits of an integer n
 - `sigma(n)` – Computes the sum of all positive divisors of n
