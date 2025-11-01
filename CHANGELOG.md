@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [0.3.0] - 2025-10-31 - Prime and Function Expansions - [ONGOING]
 
 - Added function functions:
+  - `carmichael(n)` – Computes the Carmichael function λ(n)
   - `mobius(n)` – Computes the Möbius function μ(n)
   - `sigma(n)` – Computes the sum of all positive divisors of n
   - `tau(n)` – Computes the number of positive divisors of n

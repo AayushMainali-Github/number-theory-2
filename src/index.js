@@ -17,6 +17,7 @@ export { permutation } from "./combinatorics/permutation.js";
 export { combination } from "./combinatorics/combination.js";
 
 // Function Functions
+export { carmichael } from "./function/carmichael.js";
 export { mobius } from "./function/mobius.js";
 export { sigma } from "./function/sigma.js";
 export { tau } from "./function/tau.js";

@@ -53,6 +53,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 ### Function
 
+- `carmichael(n)` – Computes the Carmichael function λ(n)
 - `mobius(n)` – Computes the Möbius function μ(n)
 - `sigma(n)` – Computes the sum of all positive divisors of n
 - `tau(n)` – Computes the number of positive divisors of n
