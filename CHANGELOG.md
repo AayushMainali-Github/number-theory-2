@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.4.0] - 2025-10-31 - Function Expansions - [ONGOING]
+### [0.4.0] - 2025-11-01 - Function Expansions - [ONGOING]
 
 - Added function functions:
   - `aliquotSum(n)` – Computes the Aliquot Sum of a number n
@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file.
   - `productOfDigits(n)` – Computes the product of the digits of an integer n
   - `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 
-## [0.3.0] - 2025-10-31 - Prime and Function Expansions
+## [0.3.0] - 2025-11-01 - Prime and Function Expansions
 
 - Added function functions:
   - `carmichael(n)` – Computes the Carmichael function λ(n)
