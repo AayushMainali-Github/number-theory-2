@@ -10,6 +10,7 @@ export { gcd } from "./arithmetic/gcd.js";
 export { lcm } from "./arithmetic/lcm.js";
 export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
+export { productOfDigits } from "./arithmetic/productOfDigits.js";
 export { sumOfDigits } from "./arithmetic/sumOfDigits.js";
 
 // Combinatorics Functions
