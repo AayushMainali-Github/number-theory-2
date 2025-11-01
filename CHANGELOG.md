@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.4.0] - 2025-10-31 - Arithmetic Expansions
+
+- Added arithmetic functions:
+  - `sumOfDigits(n)` – Computes the sum of the digits of an integer n
+
 ## [0.3.0] - 2025-10-31 - Prime and Function Expansions
 
 - Added function functions:
