@@ -17,6 +17,7 @@ export { permutation } from "./combinatorics/permutation.js";
 export { combination } from "./combinatorics/combination.js";
 
 // Function Functions
+export { aliquotSum } from "./function/aliquotSum.js";
 export { carmichael } from "./function/carmichael.js";
 export { digitalRoot } from "./function/digitalRoot.js";
 export { isAbundant } from "./function/isAbundant.js";

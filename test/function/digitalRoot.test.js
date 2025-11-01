@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import { digitalRoot } from "../../src/arithmetic/digitalRoot.js";
+import { digitalRoot } from "../../src/function/digitalRoot.js";
 
 describe("digitalRoot()", () => {
   // 1. Basic case

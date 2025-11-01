@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### [0.4.0] - 2025-10-31 - Function Expansions - [ONGOING]
 
 - Added function functions:
+  - `aliquotSum(n)` – Computes the Aliquot Sum of a number n
   - `digitalRoot(n)` – Computes the digital root of an integer n
   - `isAbundant(n)` – Checks if a number n is Abundant
   - `isDeficient(n)` – Checks if a number n is Deficient
