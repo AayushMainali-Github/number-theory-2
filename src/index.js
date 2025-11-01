@@ -18,6 +18,7 @@ export { combination } from "./combinatorics/combination.js";
 
 // Function Functions
 export { carmichael } from "./function/carmichael.js";
+export { digitalRoot } from "./function/digitalRoot.js";
 export { isAbundant } from "./function/isAbundant.js";
 export { isDeficient } from "./function/isDeficient.js";
 export { isPerfect } from "./function/isPerfect.js";
