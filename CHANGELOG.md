@@ -2,9 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.4.0] - 2025-10-31 - Arithmetic Expansions - [ONGOING]
+### [0.4.0] - 2025-10-31 - Function Expansions - [ONGOING]
 
-- Added arithmetic functions:
+- Added function functions:
   - `productOfDigits(n)` – Computes the product of the digits of an integer n
   - `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 

@@ -44,8 +44,6 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `lcm(a, b)` – Least Common Multiple using the formula `lcm(a, b) = |a*b| / gcd(a, b)`
 - `mod(a, b)` – Modular remainder (handles negative numbers and BigInts)
 - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
-- `productOfDigits(n)` – Computes the product of the digits of an integer n
-- `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 
 ### Combinatorics
 
@@ -57,7 +55,9 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 - `carmichael(n)` – Computes the Carmichael function λ(n)
 - `mobius(n)` – Computes the Möbius function μ(n)
+- `productOfDigits(n)` – Computes the product of the digits of an integer n
 - `sigma(n)` – Computes the sum of all positive divisors of n
+- `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 - `tau(n)` – Computes the number of positive divisors of n
 - `totient(n)` – Computes Euler's Totient Function φ(n)
 

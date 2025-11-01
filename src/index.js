@@ -10,8 +10,6 @@ export { gcd } from "./arithmetic/gcd.js";
 export { lcm } from "./arithmetic/lcm.js";
 export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
-export { productOfDigits } from "./arithmetic/productOfDigits.js";
-export { sumOfDigits } from "./arithmetic/sumOfDigits.js";
 
 // Combinatorics Functions
 export { factorial } from "./combinatorics/factorial.js";
@@ -21,7 +19,9 @@ export { combination } from "./combinatorics/combination.js";
 // Function Functions
 export { carmichael } from "./function/carmichael.js";
 export { mobius } from "./function/mobius.js";
+export { productOfDigits } from "./function/productOfDigits.js";
 export { sigma } from "./function/sigma.js";
+export { sumOfDigits } from "./function/sumOfDigits.js";
 export { tau } from "./function/tau.js";
 export { totient } from "./function/totient.js";
 

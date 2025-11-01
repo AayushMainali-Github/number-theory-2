@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import { sumOfDigits } from "../../src/arithmetic/sumOfDigits.js";
+import { sumOfDigits } from "../../src/function/sumOfDigits.js";
 
 describe("sumOfDigits()", () => {
   // 1. Basic case

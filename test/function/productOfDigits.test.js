@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import { productOfDigits } from "../../src/arithmetic/productOfDigits.js";
+import { productOfDigits } from "../../src/function/productOfDigits.js";
 
 describe("productOfDigits()", () => {
   // 1. Simple case
