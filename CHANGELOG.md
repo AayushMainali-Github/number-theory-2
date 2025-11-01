@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.3.0] - 2025-10-31 - Prime and Function Expansions - [ONGOING]
+## [0.3.0] - 2025-10-31 - Prime and Function Expansions
 
 - Added function functions:
   - `carmichael(n)` – Computes the Carmichael function λ(n)
