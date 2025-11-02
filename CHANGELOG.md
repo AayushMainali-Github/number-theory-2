@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.4.0] - 2025-11-01 - Function Expansions - [ONGOING]
+### [0.4.0] - 2025-11-02 - Function Expansions
 
 - Added function functions:
   - `aliquotSum(n)` – Computes the Aliquot Sum of a number n
