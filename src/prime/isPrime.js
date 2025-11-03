@@ -1,3 +1,5 @@
+import bigintSqrt from "../utils/bigintSqrt.js";
+
 /**
  * Determine if a number (Number or BigInt) is prime.
  * Uses simple trial division up to √n for exactness.
@@ -39,17 +41,3 @@ export function isPrime(n) {
  * @param {bigint} n
  * @returns {bigint}
  */
-function bigintSqrt(n) {
-  if (n < 0n) throw new RangeError("Cannot compute sqrt of negative number");
-  if (n < 2n) return n;
-
-  let x0 = n;
-  let x1 = (n >> 1n) + 1n;
-
-  while (x1 < x0) {
-    x0 = x1;
-    x1 = (x1 + n / x1) >> 1n;
-  }
-
-  return x0;
-}
