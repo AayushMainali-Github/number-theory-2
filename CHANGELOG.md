@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### [0.5.0] - 2025-11-03 - Combinatorics Expansions - [ONGOING]
 - Added combinatorics functions:
   - `isTriangular(n)` – Checks if a number n is triangular
+  - `square(n)` – Computes the n-th square number
 
 
 

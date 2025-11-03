@@ -20,6 +20,7 @@ export { lucas } from "./combinatorics/lucas.js";
 export { nthFibonacci } from "./combinatorics/nthFibonacci.js";
 export { nthLucas } from "./combinatorics/nthLucas.js";
 export { permutation } from "./combinatorics/permutation.js";
+export { square } from "./combinatorics/square.js";
 export { triangular } from "./combinatorics/triangular.js";
 
 // Function Functions
