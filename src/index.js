@@ -15,6 +15,7 @@ export { modInverse } from "./arithmetic/modInverse.js";
 export { combination } from "./combinatorics/combination.js";
 export { factorial } from "./combinatorics/factorial.js";
 export { fibonacci } from "./combinatorics/fibonacci.js";
+export { isTriangular } from "./combinatorics/isTriangular.js";
 export { lucas } from "./combinatorics/lucas.js";
 export { nthFibonacci } from "./combinatorics/nthFibonacci.js";
 export { nthLucas } from "./combinatorics/nthLucas.js";
