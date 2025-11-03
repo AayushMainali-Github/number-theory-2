@@ -50,6 +50,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `factorial(n)` – Computes the factorial of n (n!)
 - `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
 - `combination(n, r)` – Computes the number of combinations of n items taken r at a time
+- `triangular(n)` – Computes the n-th triangular number
 
 ### Function
 

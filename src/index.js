@@ -15,6 +15,7 @@ export { modInverse } from "./arithmetic/modInverse.js";
 export { factorial } from "./combinatorics/factorial.js";
 export { permutation } from "./combinatorics/permutation.js";
 export { combination } from "./combinatorics/combination.js";
+export { triangular } from "./combinatorics/triangular.js";
 
 // Function Functions
 export { aliquotSum } from "./function/aliquotSum.js";

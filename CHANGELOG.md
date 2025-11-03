@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.5.0] - 2025-11-03 - Combinatorics Expansions - [ONGOING]
+
+- Added combinatorics functions:
+  - `triangular(n)` – Computes the n-th triangular number
+
+
+
 ### [0.4.0] - 2025-11-02 - Function Expansions
 
 - Added function functions:
