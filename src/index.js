@@ -12,9 +12,13 @@ export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
 
 // Combinatorics Functions
-export { factorial } from "./combinatorics/factorial.js";
-export { permutation } from "./combinatorics/permutation.js";
 export { combination } from "./combinatorics/combination.js";
+export { factorial } from "./combinatorics/factorial.js";
+export { fibonacci } from "./combinatorics/fibonacci.js";
+export { lucas } from "./combinatorics/lucas.js";
+export { nthFibonacci } from "./combinatorics/nthFibonacci.js";
+export { nthLucas } from "./combinatorics/nthLucas.js";
+export { permutation } from "./combinatorics/permutation.js";
 export { triangular } from "./combinatorics/triangular.js";
 
 // Function Functions
@@ -41,9 +45,3 @@ export { primeFactorization } from "./prime/primeFactorization.js";
 export { primeFactors } from "./prime/primeFactors.js";
 export { sieve } from "./prime/sieve.js";
 export { sieveRange } from "./prime/sieveRange.js";
-
-// Sequence Functions
-export { fibonacci } from "./sequence/fibonacci.js";
-export { lucas } from "./sequence/lucas.js";
-export { nthFibonacci } from "./sequence/nthFibonacci.js";
-export { nthLucas } from "./sequence/nthLucas.js";

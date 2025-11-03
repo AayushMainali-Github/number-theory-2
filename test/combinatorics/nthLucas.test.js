@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import { nthLucas } from "../../src/sequence/nthLucas.js";
+import { nthLucas } from "../../src/combinatorics/nthLucas.js";
 
 describe("nthLucas()", () => {
   // 1. Base cases

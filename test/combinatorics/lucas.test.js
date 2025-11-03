@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import { lucas } from "../../src/sequence/lucas.js";
+import { lucas } from "../../src/combinatorics/lucas.js";
 
 describe("lucas()", () => {
   // 1. Base case: n = 0

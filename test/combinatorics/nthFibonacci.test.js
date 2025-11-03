@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import { nthFibonacci } from "../../src/sequence/nthFibonacci.js";
+import { nthFibonacci } from "../../src/combinatorics/nthFibonacci.js";
 
 describe("nthFibonacci()", () => {
   // 1. Base cases

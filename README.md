@@ -47,9 +47,13 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 ### Combinatorics
 
-- `factorial(n)` – Computes the factorial of n (n!)
-- `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
 - `combination(n, r)` – Computes the number of combinations of n items taken r at a time
+- `factorial(n)` – Computes the factorial of n (n!)
+- `fibonacci(n)` – Generates Fibonacci sequence up to the n-th term
+- `lucas(n)` – Generates Lucas sequence up to the n-th term
+- `nthFibonacci(n)` – Returns the n-th Fibonacci number
+- `nthLucas(n)` – Returns the n-th Lucas number
+- `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
 - `triangular(n)` – Computes the n-th triangular number
 
 ### Function
@@ -78,13 +82,6 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `primeFactors(n)` – Returns the distinct prime factors of n as an array of BigInts.
 - `sieve(n)` – Generates all primes up to n using the Sieve of Eratosthenes
 - `sieveRange(a, b)` – Generates all primes between a and b (inclusive) using the Sieve of Eratosthenes
-
-### Sequence
-
-- `fibonacci(n)` – Generates Fibonacci sequence up to the n-th term
-- `lucas(n)` – Generates Lucas sequence up to the n-th term
-- `nthFibonacci(n)` – Returns the n-th Fibonacci number
-- `nthLucas(n)` – Returns the n-th Lucas number
 
 ---
 
