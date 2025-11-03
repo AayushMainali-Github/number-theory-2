@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.5.0] - 2025-11-03 - Combinatorics Expansions - [ONGOING]
+### [0.4.1] - 2025-11-03 - Combinatorics Expansions
 - Merged sequence functions into combinatorics
 - Added combinatorics functions:
   - `triangular(n)` – Computes the n-th triangular number
