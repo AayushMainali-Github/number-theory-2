@@ -2,7 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.5.0] - 2025-11-03 - Combinatorics Expansions - [ONGOING]
+### [0.5.0] - 2025-11-XX - Arithmetic and Combinatorics Expansions - [ONGOING]
+- Added arithmetic functions:
+  - `isEven(n)` – Checks if a number n is even
+  - `isOdd(n)` – Checks if a number n is odd
 - Added combinatorics functions:
   - `hexagonal(n)` – Computes the n-th hexagonal number
   - `isHexagonal(n)` – Checks if a number n is hexagonal
@@ -11,8 +14,6 @@ All notable changes to this project will be documented in this file.
   - `isTriangular(n)` – Checks if a number n is triangular
   - `pentagonal(n)` – Computes the n-th pentagonal number
   - `square(n)` – Computes the n-th square number
-
-
 
 ### [0.4.1] - 2025-11-03 - Combinatorics Expansions
 - Merged sequence functions into combinatorics

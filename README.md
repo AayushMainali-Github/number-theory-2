@@ -41,6 +41,8 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `divisors(n)` – Returns all positive divisors of a given integer n
 - `extendedGCD(a, b)` – Extended Greatest Common Divisor
 - `gcd(a, b)` – Greatest Common Divisor using Euclid’s algorithm
+- `isEven(n)` – Checks if a number n is even
+- `isOdd(n)` – Checks if a number n is odd
 - `lcm(a, b)` – Least Common Multiple using the formula `lcm(a, b) = |a*b| / gcd(a, b)`
 - `mod(a, b)` – Modular remainder (handles negative numbers and BigInts)
 - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m

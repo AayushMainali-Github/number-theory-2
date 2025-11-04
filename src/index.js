@@ -7,6 +7,8 @@
 export { divisors } from "./arithmetic/divisors.js";
 export { extendedGCD } from "./arithmetic/extendedGCD.js";
 export { gcd } from "./arithmetic/gcd.js";
+export { isEven } from "./arithmetic/isEven.js";
+export { isOdd } from "./arithmetic/isOdd.js";
 export { lcm } from "./arithmetic/lcm.js";
 export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
