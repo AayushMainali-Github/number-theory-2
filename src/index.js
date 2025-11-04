@@ -15,6 +15,7 @@ export { modInverse } from "./arithmetic/modInverse.js";
 export { combination } from "./combinatorics/combination.js";
 export { factorial } from "./combinatorics/factorial.js";
 export { fibonacci } from "./combinatorics/fibonacci.js";
+export { hexagonal } from "./combinatorics/hexagonal.js";
 export { isPentagonal } from "./combinatorics/isPentagonal.js";
 export { isSquare } from "./combinatorics/isSquare.js";
 export { isTriangular } from "./combinatorics/isTriangular.js";
