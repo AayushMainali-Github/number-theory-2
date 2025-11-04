@@ -42,7 +42,10 @@ describe("lcmArray()", () => {
 
   // 8. Large mixed values
   test("lcmArray([123456789123456789n, 9n]) → 123456789123456789n", () => {
-    assert.strictEqual(lcmArray([123456789123456789n, 9n]), 123456789123456789n);
+    assert.strictEqual(
+      lcmArray([123456789123456789n, 9n]),
+      123456789123456789n,
+    );
   });
 
   // 9. Empty array should throw

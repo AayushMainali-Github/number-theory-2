@@ -2,7 +2,7 @@
  * Computes the LCM of an array of numbers.
  * Works for both Number and BigInt inputs.
  * Returns a BigInt.
- * 
+ *
  * @example
  * lcmArray([48, 64, 16]) ➜ 192n
  * lcmArray([101n, 103n, 107n]) ➜ 109103n

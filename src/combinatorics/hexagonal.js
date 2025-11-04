@@ -16,5 +16,5 @@
 export function hexagonal(n) {
   n = BigInt(n);
   if (n < 1n) throw new RangeError("hexagonal() requires n ≥ 1");
-  return n * (2n*n - 1n);
+  return n * (2n * n - 1n);
 }

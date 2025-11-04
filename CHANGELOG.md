@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 ### [0.5.0] - 2025-11-XX - Arithmetic and Combinatorics Expansions - [ONGOING]
+
 - Added arithmetic functions:
   - `gcdArray(arr)` – Computes the GCD of an array of numbers
   - `isEven(n)` – Checks if a number n is even
@@ -19,6 +20,7 @@ All notable changes to this project will be documented in this file.
   - `square(n)` – Computes the n-th square number
 
 ### [0.4.1] - 2025-11-03 - Combinatorics Expansions
+
 - Merged sequence functions into combinatorics
 - Added combinatorics functions:
   - `triangular(n)` – Computes the n-th triangular number

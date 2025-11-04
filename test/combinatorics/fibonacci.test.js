@@ -71,7 +71,7 @@ describe("fibonacci()", () => {
     const seq = fibonacci(1000);
     assert.strictEqual(
       seq.at(-1),
-      43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875n
+      43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875n,
     );
   });
 
@@ -142,14 +142,18 @@ describe("fibonacci()", () => {
   // 24. Fibonacci even-indexed terms sum
   test("fibonacci(20) → even-indexed sum = F(21) - 1", () => {
     const seq = fibonacci(21);
-    const evenSum = seq.filter((_, i) => i % 2 === 0).reduce((a, b) => a + b, 0n);
+    const evenSum = seq
+      .filter((_, i) => i % 2 === 0)
+      .reduce((a, b) => a + b, 0n);
     assert.strictEqual(evenSum, seq[21] - 1n);
   });
 
   // 25. Fibonacci odd-indexed terms sum
   test("fibonacci(20) → odd-indexed sum = F(20)", () => {
     const seq = fibonacci(20);
-    const oddSum = seq.filter((_, i) => i % 2 === 1).reduce((a, b) => a + b, 0n);
+    const oddSum = seq
+      .filter((_, i) => i % 2 === 1)
+      .reduce((a, b) => a + b, 0n);
     assert.strictEqual(oddSum, seq[20]);
   });
 });

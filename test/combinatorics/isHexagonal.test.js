@@ -5,12 +5,16 @@ import { isHexagonal } from "../../src/combinatorics/isHexagonal.js";
 describe("isHexagonal()", () => {
   // 1) Small true cases: 1, 6, 15, 28, 45, 66
   test("recognizes small hexagonal numbers", () => {
-    [1n, 6n, 15n, 28n, 45n, 66n].forEach((v) => assert.strictEqual(isHexagonal(v), true));
+    [1n, 6n, 15n, 28n, 45n, 66n].forEach((v) =>
+      assert.strictEqual(isHexagonal(v), true),
+    );
   });
 
   // 2) Small false cases around them
   test("rejects nearby non-hexagonal numbers", () => {
-    [2n, 3n, 4n, 5n, 7n, 8n, 9n, 10n, 11n, 12n, 13n, 14n].forEach((v) => assert.strictEqual(isHexagonal(v), false));
+    [2n, 3n, 4n, 5n, 7n, 8n, 9n, 10n, 11n, 12n, 13n, 14n].forEach((v) =>
+      assert.strictEqual(isHexagonal(v), false),
+    );
   });
 
   // 3) Larger true values: H10, H20, H100
@@ -22,7 +26,9 @@ describe("isHexagonal()", () => {
 
   // 4) Neighboring numbers of large true values are false
   test("neighbors of large hexagonal numbers are false", () => {
-    [189n, 191n, 779n, 781n, 19899n, 19901n].forEach((v) => assert.strictEqual(isHexagonal(v), false));
+    [189n, 191n, 779n, 781n, 19899n, 19901n].forEach((v) =>
+      assert.strictEqual(isHexagonal(v), false),
+    );
   });
 
   // 5) BigInt input support
@@ -35,5 +41,4 @@ describe("isHexagonal()", () => {
   test("non-positive → false", () => {
     [0n, -1n, -10n].forEach((v) => assert.strictEqual(isHexagonal(v), false));
   });
-
 });
