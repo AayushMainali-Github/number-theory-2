@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
   - `gcdArray(arr)` – Computes the GCD of an array of numbers
   - `isEven(n)` – Checks if a number n is even
   - `isOdd(n)` – Checks if a number n is odd
+  - `lcmArray(arr)` – Computes the LCM of an array of numbers
   - `sign(n)` – Returns the sign of a number n
 - Added combinatorics functions:
   - `hexagonal(n)` – Computes the n-th hexagonal number

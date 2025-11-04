@@ -11,6 +11,7 @@ export { gcdArray } from "./arithmetic/gcdArray.js";
 export { isEven } from "./arithmetic/isEven.js";
 export { isOdd } from "./arithmetic/isOdd.js";
 export { lcm } from "./arithmetic/lcm.js";
+export { lcmArray } from "./arithmetic/lcmArray.js";
 export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
 export { sign } from "./arithmetic/sign.js";
