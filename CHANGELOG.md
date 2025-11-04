@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ### [0.5.0] - 2025-11-XX - Arithmetic and Combinatorics Expansions - [ONGOING]
 - Added arithmetic functions:
+  - `gcdArray(arr)` – Computes the GCD of an array of numbers
   - `isEven(n)` – Checks if a number n is even
   - `isOdd(n)` – Checks if a number n is odd
   - `sign(n)` – Returns the sign of a number n
