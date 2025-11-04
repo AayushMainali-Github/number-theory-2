@@ -24,7 +24,7 @@ describe("pentagonal()", () => {
   });
 
   // 5. Large value
-  test("pentagonal(100) → 14850", () => {
+  test("pentagonal(100) → 14950", () => {
     assert.strictEqual(pentagonal(100), 14950n);
   });
 

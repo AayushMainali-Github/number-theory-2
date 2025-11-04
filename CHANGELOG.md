@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ### [0.5.0] - 2025-11-03 - Combinatorics Expansions - [ONGOING]
 - Added combinatorics functions:
+  - `isPentagonal(n)` – Checks if a number n is pentagonal
   - `isSquare(n)` – Checks if a number n is square
   - `isTriangular(n)` – Checks if a number n is triangular
   - `pentagonal(n)` – Computes the n-th pentagonal number
