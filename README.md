@@ -51,6 +51,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `factorial(n)` – Computes the factorial of n (n!)
 - `fibonacci(n)` – Generates Fibonacci sequence up to the n-th term
 - `hexagonal(n)` – Computes the n-th hexagonal number
+- `isHexagonal(n)` – Checks if a number n is hexagonal
 - `isPentagonal(n)` – Checks if a number n is pentagonal
 - `isSquare(n)` – Checks if a number n is square
 - `isTriangular(n)` – Checks if a number n is triangular
