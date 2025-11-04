@@ -12,6 +12,7 @@ export { isOdd } from "./arithmetic/isOdd.js";
 export { lcm } from "./arithmetic/lcm.js";
 export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
+export { sign } from "./arithmetic/sign.js";
 
 // Combinatorics Functions
 export { combination } from "./combinatorics/combination.js";

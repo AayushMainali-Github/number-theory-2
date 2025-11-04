@@ -46,6 +46,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `lcm(a, b)` – Least Common Multiple using the formula `lcm(a, b) = |a*b| / gcd(a, b)`
 - `mod(a, b)` – Modular remainder (handles negative numbers and BigInts)
 - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
+- `sign(n)` – Returns the sign of a number n
 
 ### Combinatorics
 

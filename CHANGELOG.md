@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 - Added arithmetic functions:
   - `isEven(n)` – Checks if a number n is even
   - `isOdd(n)` – Checks if a number n is odd
+  - `sign(n)` – Returns the sign of a number n
 - Added combinatorics functions:
   - `hexagonal(n)` – Computes the n-th hexagonal number
   - `isHexagonal(n)` – Checks if a number n is hexagonal
