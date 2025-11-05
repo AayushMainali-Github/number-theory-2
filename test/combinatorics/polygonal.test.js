@@ -30,7 +30,7 @@ describe("polygonal()", () => {
   // 4. Direct formula checks for heptagonal (s=7)
   test("polygonal(7, 1..5) direct formula", () => {
     const s = 7n; // (s-2)=5, (s-4)=3
-    const expected = (n) => (((s - 2n) * n * n) - ((s - 4n) * n)) / 2n;
+    const expected = (n) => ((s - 2n) * n * n - (s - 4n) * n) / 2n;
     assert.deepStrictEqual(polygonal(7, 1), expected(1n));
     assert.deepStrictEqual(polygonal(7, 2), expected(2n));
     assert.deepStrictEqual(polygonal(7, 3), expected(3n));
@@ -75,7 +75,7 @@ describe("polygonal()", () => {
   // 8. BigInt inputs for s and n
   test("BigInt inputs are supported", () => {
     const val = polygonal(6n, 10n);
-    const expected = (((6n - 2n) * 10n * 10n) - ((6n - 4n) * 10n)) / 2n;
+    const expected = ((6n - 2n) * 10n * 10n - (6n - 4n) * 10n) / 2n;
     assert.strictEqual(val, expected);
   });
 

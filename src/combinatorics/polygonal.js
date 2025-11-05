@@ -20,5 +20,5 @@ export function polygonal(s, n) {
   n = BigInt(n);
   if (s < 3n) throw new RangeError("polygonal() requires s ≥ 3");
   if (n < 1n) throw new RangeError("polygonal() requires n ≥ 1");
-  return (((s - 2n) * n * n) - ((s - 4n) * n)) / 2n;
+  return ((s - 2n) * n * n - (s - 4n) * n) / 2n;
 }
