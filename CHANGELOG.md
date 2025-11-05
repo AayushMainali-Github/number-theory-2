@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
   - `isSquare(n)` – Checks if a number n is square
   - `isTriangular(n)` – Checks if a number n is triangular
   - `pentagonal(n)` – Computes the n-th pentagonal number
+  - `polygonal(s, n)` – Computes the n-th s-gonal number
   - `square(n)` – Computes the n-th square number
 
 ### [0.4.1] - 2025-11-03 - Combinatorics Expansions

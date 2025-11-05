@@ -65,6 +65,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `nthLucas(n)` – Returns the n-th Lucas number
 - `pentagonal(n)` – Computes the n-th pentagonal number
 - `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
+- `polygonal(s, n)` – Computes the n-th s-gonal number
 - `square(n)` – Computes the n-th square number
 - `triangular(n)` – Computes the n-th triangular number
 

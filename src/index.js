@@ -30,6 +30,7 @@ export { nthFibonacci } from "./combinatorics/nthFibonacci.js";
 export { nthLucas } from "./combinatorics/nthLucas.js";
 export { pentagonal } from "./combinatorics/pentagonal.js";
 export { permutation } from "./combinatorics/permutation.js";
+export { polygonal } from "./combinatorics/polygonal.js";
 export { square } from "./combinatorics/square.js";
 export { triangular } from "./combinatorics/triangular.js";
 
