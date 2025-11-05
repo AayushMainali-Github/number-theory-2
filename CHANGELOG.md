@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
   - `hexagonal(n)` – Computes the n-th hexagonal number
   - `isHexagonal(n)` – Checks if a number n is hexagonal
   - `isPentagonal(n)` – Checks if a number n is pentagonal
+  - `isPolygonal(s, n)` – Checks if a number n is s-gonal
   - `isSquare(n)` – Checks if a number n is square
   - `isTriangular(n)` – Checks if a number n is triangular
   - `pentagonal(n)` – Computes the n-th pentagonal number

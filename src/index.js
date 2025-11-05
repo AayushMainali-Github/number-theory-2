@@ -25,6 +25,7 @@ export { isHexagonal } from "./combinatorics/isHexagonal.js";
 export { isPentagonal } from "./combinatorics/isPentagonal.js";
 export { isSquare } from "./combinatorics/isSquare.js";
 export { isTriangular } from "./combinatorics/isTriangular.js";
+export { isPolygonal } from "./combinatorics/isPolygonal.js";
 export { lucas } from "./combinatorics/lucas.js";
 export { nthFibonacci } from "./combinatorics/nthFibonacci.js";
 export { nthLucas } from "./combinatorics/nthLucas.js";
