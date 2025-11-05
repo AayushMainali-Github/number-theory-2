@@ -18,6 +18,7 @@ export { sign } from "./arithmetic/sign.js";
 
 // Combinatorics Functions
 export { bell } from "./combinatorics/bell.js";
+export { catalan } from "./combinatorics/catalan.js";
 export { combination } from "./combinatorics/combination.js";
 export { factorial } from "./combinatorics/factorial.js";
 export { fibonacci } from "./combinatorics/fibonacci.js";

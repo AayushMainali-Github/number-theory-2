@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
   - `sign(n)` – Returns the sign of a number n
 - Added combinatorics functions:
   - `bell(n)` – Computes the n-th Bell number
+  - `catalan(n)` – Computes the n-th Catalan number
   - `hexagonal(n)` – Computes the n-th hexagonal number
   - `isHexagonal(n)` – Checks if a number n is hexagonal
   - `isPentagonal(n)` – Checks if a number n is pentagonal
