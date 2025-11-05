@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.5.0] - 2025-11-XX - Arithmetic and Combinatorics Expansions - [ONGOING]
+### [0.5.0] - 2025-11-05 - Arithmetic and Combinatorics Expansions
 
 - Added arithmetic functions:
   - `gcdArray(arr)` – Computes the GCD of an array of numbers
