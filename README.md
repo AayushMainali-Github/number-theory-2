@@ -84,6 +84,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `omegaBig(n)` – Computes the number of prime factors of n (big omega)
 - `omegaSmall(n)` – Computes the number of distinct prime factors of n (small omega)
 - `productOfDigits(n)` – Computes the product of the digits of an integer n
+- `radical(n)` – Computes the radical of n (squarefree kernel)
 - `sigma(n)` – Computes the sum of all positive divisors of n
 - `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 - `tau(n)` – Computes the number of positive divisors of n

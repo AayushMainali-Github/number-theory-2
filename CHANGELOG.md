@@ -7,8 +7,7 @@ All notable changes to this project will be documented in this file.
 - Added function functions:
   - `omegaBig(n)` – Computes the number of prime factors of n (big omega)
   - `omegaSmall(n)` – Computes the number of distinct prime factors of n (small omega)
-
-
+  - `radical(n)` – Computes the radical of n (squarefree kernel)
 
 ### [0.5.0] - 2025-11-05 - Arithmetic and Combinatorics Expansions
 

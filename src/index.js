@@ -47,6 +47,7 @@ export { isPerfect } from "./function/isPerfect.js";
 export { mobius } from "./function/mobius.js";
 export { omegaBig } from "./function/omegaBig.js";
 export { omegaSmall } from "./function/omegaSmall.js";
+export { radical } from "./function/radical.js";
 export { productOfDigits } from "./function/productOfDigits.js";
 export { sigma } from "./function/sigma.js";
 export { sumOfDigits } from "./function/sumOfDigits.js";
