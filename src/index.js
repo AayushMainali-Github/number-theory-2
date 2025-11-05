@@ -45,6 +45,7 @@ export { isAbundant } from "./function/isAbundant.js";
 export { isDeficient } from "./function/isDeficient.js";
 export { isPerfect } from "./function/isPerfect.js";
 export { mobius } from "./function/mobius.js";
+export { omegaSmall } from "./function/omegaSmall.js";
 export { productOfDigits } from "./function/productOfDigits.js";
 export { sigma } from "./function/sigma.js";
 export { sumOfDigits } from "./function/sumOfDigits.js";

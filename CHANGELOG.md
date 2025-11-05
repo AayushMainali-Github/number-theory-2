@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.6.0] - 2025-11-06 - Function Expansions - [ONGOING]
+
+- Added function functions:
+  - `omegaSmall(n)` – Computes the number of prime factors of n (small omega)
+
+
+
 ### [0.5.0] - 2025-11-05 - Arithmetic and Combinatorics Expansions
 
 - Added arithmetic functions:
