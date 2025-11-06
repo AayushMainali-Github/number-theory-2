@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### [0.6.0] - 2025-11-XX - Function Expansions - [ONGOING]
 
 - Added function functions:
+  - `liouville(n)` – Computes the Liouville function of a number n
   - `omegaBig(n)` – Computes the number of prime factors of n (big omega)
   - `omegaSmall(n)` – Computes the number of distinct prime factors of n (small omega)
   - `radical(n)` – Computes the radical of n (squarefree kernel)

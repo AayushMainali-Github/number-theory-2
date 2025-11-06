@@ -44,6 +44,7 @@ export { digitalRoot } from "./function/digitalRoot.js";
 export { isAbundant } from "./function/isAbundant.js";
 export { isDeficient } from "./function/isDeficient.js";
 export { isPerfect } from "./function/isPerfect.js";
+export { liouville } from "./function/liouville.js";
 export { mobius } from "./function/mobius.js";
 export { omegaBig } from "./function/omegaBig.js";
 export { omegaSmall } from "./function/omegaSmall.js";
