@@ -40,10 +40,13 @@ export { triangular } from "./combinatorics/triangular.js";
 // Function Functions
 export { aliquotSum } from "./function/aliquotSum.js";
 export { carmichael } from "./function/carmichael.js";
+export { dedekindPsi } from "./function/dedekindPsi.js";
 export { digitalRoot } from "./function/digitalRoot.js";
 export { isAbundant } from "./function/isAbundant.js";
 export { isDeficient } from "./function/isDeficient.js";
 export { isPerfect } from "./function/isPerfect.js";
+export { isSquareFree } from "./function/isSquareFree.js";
+export { jordanTotient } from "./function/jordanTotient.js";
 export { liouville } from "./function/liouville.js";
 export { mobius } from "./function/mobius.js";
 export { omegaBig } from "./function/omegaBig.js";

@@ -76,10 +76,13 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 - `aliquotSum(n)` – Computes the Aliquot Sum of a number n
 - `carmichael(n)` – Computes the Carmichael function λ(n)
+- `dedekindPsi(n)` – Computes the Dedekind psi function ψ(n)
 - `digitalRoot(n)` – Computes the digital root of an integer n
 - `isAbundant(n)` – Checks if a number n is Abundant
 - `isDeficient(n)` – Checks if a number n is Deficient
 - `isPerfect(n)` – Checks if a number n is Perfect
+- `isSquareFree(n)` – Checks if a number n is square-free
+- `jordanTotient(n, k)` – Computes Jordan's totient function J_k(n)
 - `liouville(n)` – Computes the Liouville function of a number n
 - `mobius(n)` – Computes the Möbius function μ(n)
 - `omegaBig(n)` – Computes the number of prime factors of n (big omega)
