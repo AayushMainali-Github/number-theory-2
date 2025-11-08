@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.6.0] - 2025-11-XX - Function Expansions - [ONGOING]
+### [0.6.0] - 2025-11-08 - Function Expansions
 
 - Added function functions:
   - `collatzSequence(n)` – Generates the Collatz sequence from n down to 1
