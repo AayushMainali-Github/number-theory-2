@@ -18,7 +18,10 @@ describe("collatzSequence()", () => {
   test("collatzSequence(6n) returns BigInt array", () => {
     const seq = collatzSequence(6n);
     assert.strictEqual(Array.isArray(seq), true);
-    assert.strictEqual(seq.every((x) => typeof x === "bigint"), true);
+    assert.strictEqual(
+      seq.every((x) => typeof x === "bigint"),
+      true,
+    );
   });
 
   // 4. Domain errors

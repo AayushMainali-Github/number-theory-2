@@ -13,11 +13,11 @@ All notable changes to this project will be documented in this file.
   - `jordanTotient(n, k)` – Computes Jordan's totient function J_k(n)
   - `liouville(n)` – Computes the Liouville function of a number n
   - `reducedTotient(n)` – Returns reduced fraction φ(n)/n as { num, den }
-  - `sigmaUnitary(n)` – Computes the sum of unitary divisors σ*(n)
+  - `sigmaUnitary(n)` – Computes the sum of unitary divisors σ\*(n)
   - `omegaBig(n)` – Computes the number of prime factors of n (big omega)
   - `omegaSmall(n)` – Computes the number of distinct prime factors of n (small omega)
   - `radical(n)` – Computes the radical of n (squarefree kernel)
-  - `tauUnitary(n)` – Computes the number of unitary divisors τ*(n)
+  - `tauUnitary(n)` – Computes the number of unitary divisors τ\*(n)
 
 ### [0.5.0] - 2025-11-05 - Arithmetic and Combinatorics Expansions
 

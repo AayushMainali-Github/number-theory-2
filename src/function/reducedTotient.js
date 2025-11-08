@@ -17,7 +17,8 @@ import { totient } from "./totient.js";
  */
 export function reducedTotient(n) {
   const nBig = BigInt(n);
-  if (nBig <= 0n) throw new RangeError("reducedTotient() is only defined for n ≥ 1");
+  if (nBig <= 0n)
+    throw new RangeError("reducedTotient() is only defined for n ≥ 1");
 
   const phi = totient(nBig);
 

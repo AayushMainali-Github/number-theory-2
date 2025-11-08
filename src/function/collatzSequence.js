@@ -15,7 +15,8 @@
  */
 export function collatzSequence(n) {
   let x = BigInt(n);
-  if (x <= 0n) throw new RangeError("collatzSequence() is only defined for n ≥ 1");
+  if (x <= 0n)
+    throw new RangeError("collatzSequence() is only defined for n ≥ 1");
 
   const seq = [x];
   while (x !== 1n) {

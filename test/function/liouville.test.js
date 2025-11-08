@@ -33,7 +33,8 @@ describe("liouville()", () => {
 
   // 3. Large semiprime
   test("liouville(99991*10007) → 1", () => {
-    const p = 99991n, q = 10007n;
+    const p = 99991n,
+      q = 10007n;
     assert.strictEqual(liouville(p * q), 1n);
   });
 

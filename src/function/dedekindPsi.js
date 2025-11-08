@@ -26,7 +26,8 @@ import { primeFactorization } from "../prime/primeFactorization.js";
  */
 export function dedekindPsi(n) {
   let nBig = BigInt(n);
-  if (nBig <= 0n) throw new RangeError("dedekindPsi() is only defined for n ≥ 1");
+  if (nBig <= 0n)
+    throw new RangeError("dedekindPsi() is only defined for n ≥ 1");
   if (nBig === 1n) return 1n;
 
   const factors = primeFactorization(nBig);

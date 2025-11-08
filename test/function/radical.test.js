@@ -41,7 +41,8 @@ describe("radical()", () => {
 
   // 4. BigInt inputs and negatives
   test("radical(99991n * 10007n) → product (squarefree)", () => {
-    const p = 99991n, q = 10007n;
+    const p = 99991n,
+      q = 10007n;
     assert.strictEqual(radical(p * q), p * q);
   });
 

@@ -94,10 +94,10 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `radical(n)` – Computes the radical of n (squarefree kernel)
 - `reducedTotient(n)` – Returns reduced fraction φ(n)/n as { num, den }
 - `sigma(n)` – Computes the sum of all positive divisors of n
-- `sigmaUnitary(n)` – Computes the sum of unitary divisors σ*(n)
+- `sigmaUnitary(n)` – Computes the sum of unitary divisors σ\*(n)
 - `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 - `tau(n)` – Computes the number of positive divisors of n
-- `tauUnitary(n)` – Computes the number of unitary divisors τ*(n)
+- `tauUnitary(n)` – Computes the number of unitary divisors τ\*(n)
 - `totient(n)` – Computes Euler's Totient Function φ(n)
 
 ### Prime
