@@ -76,6 +76,9 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 - `aliquotSum(n)` – Computes the Aliquot Sum of a number n
 - `carmichael(n)` – Computes the Carmichael function λ(n)
+- `collatzSequence(n)` – Generates the Collatz sequence from n down to 1
+- `collatzSteps(n)` – Counts steps to reach 1 under the Collatz process
+- `cototient(n)` – Computes cototient n − φ(n)
 - `dedekindPsi(n)` – Computes the Dedekind psi function ψ(n)
 - `digitalRoot(n)` – Computes the digital root of an integer n
 - `isAbundant(n)` – Checks if a number n is Abundant
@@ -89,9 +92,12 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `omegaSmall(n)` – Computes the number of distinct prime factors of n (small omega)
 - `productOfDigits(n)` – Computes the product of the digits of an integer n
 - `radical(n)` – Computes the radical of n (squarefree kernel)
+- `reducedTotient(n)` – Returns reduced fraction φ(n)/n as { num, den }
 - `sigma(n)` – Computes the sum of all positive divisors of n
+- `sigmaUnitary(n)` – Computes the sum of unitary divisors σ*(n)
 - `sumOfDigits(n)` – Computes the sum of the digits of an integer n
 - `tau(n)` – Computes the number of positive divisors of n
+- `tauUnitary(n)` – Computes the number of unitary divisors τ*(n)
 - `totient(n)` – Computes Euler's Totient Function φ(n)
 
 ### Prime

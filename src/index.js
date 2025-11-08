@@ -40,6 +40,9 @@ export { triangular } from "./combinatorics/triangular.js";
 // Function Functions
 export { aliquotSum } from "./function/aliquotSum.js";
 export { carmichael } from "./function/carmichael.js";
+export { collatzSequence } from "./function/collatzSequence.js";
+export { collatzSteps } from "./function/collatzSteps.js";
+export { cototient } from "./function/cototient.js";
 export { dedekindPsi } from "./function/dedekindPsi.js";
 export { digitalRoot } from "./function/digitalRoot.js";
 export { isAbundant } from "./function/isAbundant.js";
@@ -52,10 +55,13 @@ export { mobius } from "./function/mobius.js";
 export { omegaBig } from "./function/omegaBig.js";
 export { omegaSmall } from "./function/omegaSmall.js";
 export { radical } from "./function/radical.js";
+export { reducedTotient } from "./function/reducedTotient.js";
 export { productOfDigits } from "./function/productOfDigits.js";
 export { sigma } from "./function/sigma.js";
+export { sigmaUnitary } from "./function/sigmaUnitary.js";
 export { sumOfDigits } from "./function/sumOfDigits.js";
 export { tau } from "./function/tau.js";
+export { tauUnitary } from "./function/tauUnitary.js";
 export { totient } from "./function/totient.js";
 
 // Prime Functions
