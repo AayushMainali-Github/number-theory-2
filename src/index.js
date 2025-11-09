@@ -31,11 +31,13 @@ export { isPolygonal } from "./combinatorics/isPolygonal.js";
 export { lucas } from "./combinatorics/lucas.js";
 export { nthFibonacci } from "./combinatorics/nthFibonacci.js";
 export { nthLucas } from "./combinatorics/nthLucas.js";
+export { nthTribonacci } from "./combinatorics/nthTribonacci.js";
 export { pentagonal } from "./combinatorics/pentagonal.js";
 export { permutation } from "./combinatorics/permutation.js";
 export { polygonal } from "./combinatorics/polygonal.js";
 export { square } from "./combinatorics/square.js";
 export { triangular } from "./combinatorics/triangular.js";
+export { tribonacci } from "./combinatorics/tribonacci.js";
 
 // Function Functions
 export { aliquotSum } from "./function/aliquotSum.js";
