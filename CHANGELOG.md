@@ -5,13 +5,16 @@ All notable changes to this project will be documented in this file.
 ### [0.7.0] - 2025-11-XX - Combinatorics Expansions - [ONGOING]
 
 - Added combinatorics functions:
+  - `doubleFactorial(n)` – Computes the double factorial n!!
   - `nthPadovan(n)` – Returns the n-th Padovan number
   - `nthPerrin(n)` – Returns the n-th Perrin number
   - `nthMotzkin(n)` – Returns the n-th Motzkin number
   - `nthTribonacci(n)` – Returns the n-th Tribonacci number
   - `motzkin(n)` – Generates the Motzkin sequence up to the n-th term
   - `padovan(n)` – Generates the Padovan sequence up to the n-th term
+  - `pascalRow(n)` – Returns the n-th row of Pascal's triangle
   - `perrin(n)` – Generates the Perrin sequence up to the n-th term
+  - `subfactorial(n)` – Computes derangements !n (subfactorial)
   - `tribonacci(n)` – Generates the Tribonacci sequence up to the n-th term
 
 

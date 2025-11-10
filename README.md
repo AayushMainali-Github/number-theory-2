@@ -55,6 +55,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `bell(n)` – Computes the n-th Bell number
 - `catalan(n)` – Computes the n-th Catalan number
 - `combination(n, r)` – Computes the number of combinations of n items taken r at a time
+- `doubleFactorial(n)` – Computes the double factorial n!!
 - `factorial(n)` – Computes the factorial of n (n!)
 - `fibonacci(n)` – Generates Fibonacci sequence up to the n-th term
 - `hexagonal(n)` – Computes the n-th hexagonal number
@@ -72,11 +73,13 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `nthPerrin(n)` – Returns the n-th Perrin number
 - `nthTribonacci(n)` – Returns the n-th Tribonacci number
 - `padovan(n)` – Generates Padovan sequence up to the n-th term
+- `pascalRow(n)` – Returns the n-th row of Pascal's triangle
 - `pentagonal(n)` – Computes the n-th pentagonal number
 - `perrin(n)` – Generates Perrin sequence up to the n-th term
 - `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
 - `polygonal(s, n)` – Computes the n-th s-gonal number
 - `square(n)` – Computes the n-th square number
+- `subfactorial(n)` – Computes derangements !n (subfactorial)
 - `triangular(n)` – Computes the n-th triangular number
 - `tribonacci(n)` – Generates Tribonacci sequence up to the n-th term
 
