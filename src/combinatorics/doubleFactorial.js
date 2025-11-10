@@ -16,7 +16,10 @@
  */
 export function doubleFactorial(n) {
   n = BigInt(n);
-  if (n < 0n) throw new RangeError("Double factorial is not defined for negative numbers");
+  if (n < 0n)
+    throw new RangeError(
+      "Double factorial is not defined for negative numbers",
+    );
   if (n === 0n || n === 1n) return 1n;
 
   let result = 1n;

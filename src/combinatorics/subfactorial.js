@@ -12,7 +12,8 @@
  */
 export function subfactorial(n) {
   n = BigInt(n);
-  if (n < 0n) throw new RangeError("Subfactorial is not defined for negative numbers");
+  if (n < 0n)
+    throw new RangeError("Subfactorial is not defined for negative numbers");
   if (n === 0n) return 1n;
   if (n === 1n) return 0n;
 

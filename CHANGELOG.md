@@ -17,7 +17,6 @@ All notable changes to this project will be documented in this file.
   - `subfactorial(n)` – Computes derangements !n (subfactorial)
   - `tribonacci(n)` – Generates the Tribonacci sequence up to the n-th term
 
-
 ### [0.6.0] - 2025-11-08 - Function Expansions
 
 - Added function functions:
