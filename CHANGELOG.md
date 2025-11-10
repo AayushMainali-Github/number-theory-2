@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.7.0] - 2025-11-XX - Combinatorics Expansions - [ONGOING]
+### [0.7.0] - 2025-11-10 - Combinatorics Expansions
 
 - Added combinatorics functions:
   - `doubleFactorial(n)` – Computes the double factorial n!!
