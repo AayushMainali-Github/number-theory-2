@@ -64,10 +64,16 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `isSquare(n)` – Checks if a number n is square
 - `isTriangular(n)` – Checks if a number n is triangular
 - `lucas(n)` – Generates Lucas sequence up to the n-th term
+- `motzkin(n)` – Generates Motzkin sequence up to the n-th term
 - `nthFibonacci(n)` – Returns the n-th Fibonacci number
 - `nthLucas(n)` – Returns the n-th Lucas number
+- `nthMotzkin(n)` – Returns the n-th Motzkin number
+- `nthPadovan(n)` – Returns the n-th Padovan number
+- `nthPerrin(n)` – Returns the n-th Perrin number
 - `nthTribonacci(n)` – Returns the n-th Tribonacci number
+- `padovan(n)` – Generates Padovan sequence up to the n-th term
 - `pentagonal(n)` – Computes the n-th pentagonal number
+- `perrin(n)` – Generates Perrin sequence up to the n-th term
 - `permutation(n, r)` – Computes the number of permutations of n items taken r at a time
 - `polygonal(s, n)` – Computes the n-th s-gonal number
 - `square(n)` – Computes the n-th square number
