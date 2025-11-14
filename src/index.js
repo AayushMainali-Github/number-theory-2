@@ -4,8 +4,11 @@
 // ===========================
 
 // Arithmetic Functions
+export { crt } from "./arithmetic/crt.js";
+export { divides } from "./arithmetic/divides.js";
 export { divisors } from "./arithmetic/divisors.js";
 export { extendedGCD } from "./arithmetic/extendedGCD.js";
+export { floorDiv } from "./arithmetic/floorDiv.js";
 export { gcd } from "./arithmetic/gcd.js";
 export { gcdArray } from "./arithmetic/gcdArray.js";
 export { isEven } from "./arithmetic/isEven.js";
@@ -14,7 +17,9 @@ export { lcm } from "./arithmetic/lcm.js";
 export { lcmArray } from "./arithmetic/lcmArray.js";
 export { mod } from "./arithmetic/mod.js";
 export { modInverse } from "./arithmetic/modInverse.js";
+export { powMod } from "./arithmetic/powMod.js";
 export { sign } from "./arithmetic/sign.js";
+export { solveCongruence } from "./arithmetic/solveCongruence.js";
 
 // Combinatorics Functions
 export { bell } from "./combinatorics/bell.js";

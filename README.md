@@ -38,8 +38,11 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 ### Arithmetic
 
+- `crt(remainders, moduli)` – Chinese Remainder Theorem solution for coprime moduli
+- `divides(a, b)` – Checks if `a` divides `b` (throws if `a = 0`)
 - `divisors(n)` – Returns all positive divisors of a given integer n
 - `extendedGCD(a, b)` – Extended Greatest Common Divisor
+- `floorDiv(a, b)` – Euclidean division returning `{ q, r }` with `0 ≤ r < |b|`
 - `gcd(a, b)` – Greatest Common Divisor using Euclid’s algorithm
 - `gcdArray(arr)` – Computes the GCD of an array of numbers
 - `isEven(n)` – Checks if a number n is even
@@ -48,7 +51,9 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `lcmArray(arr)` – Computes the LCM of an array of numbers
 - `mod(a, b)` – Modular remainder (handles negative numbers and BigInts)
 - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
+- `powMod(base, exp, mod)` – Fast modular exponentiation `(base^exp) mod mod`
 - `sign(n)` – Returns the sign of a number n
+- `solveCongruence(a, b, m)` – Solves `a·x ≡ b (mod m)` canonically
 
 ### Combinatorics
 

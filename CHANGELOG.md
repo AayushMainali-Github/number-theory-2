@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.8.0] - 2025-11-XX - Arithmetic Expansion - ONGOING
+
+- Added arithmetic functions:
+  - `crt(remainders, moduli)` – Chinese Remainder Theorem for coprime moduli
+  - `divides(a, b)` – Checks divisibility (throws if divisor is zero)
+  - `floorDiv(a, b)` – Euclidean division returning `{ q, r }` with `0 ≤ r < |b|`
+  - `powMod(base, exp, mod)` – Fast modular exponentiation `(base^exp) mod mod`
+  - `solveCongruence(a, b, m)` – Canonical solution to `a·x ≡ b (mod m)`
+
 ### [0.7.0] - 2025-11-10 - Combinatorics Expansions
 
 - Added combinatorics functions:
