@@ -4,6 +4,7 @@
 // ===========================
 
 // Arithmetic Functions
+export { ceilDiv } from "./arithmetic/ceilDiv.js";
 export { crt } from "./arithmetic/crt.js";
 export { divides } from "./arithmetic/divides.js";
 export { divisors } from "./arithmetic/divisors.js";
@@ -13,10 +14,16 @@ export { gcd } from "./arithmetic/gcd.js";
 export { gcdArray } from "./arithmetic/gcdArray.js";
 export { isEven } from "./arithmetic/isEven.js";
 export { isOdd } from "./arithmetic/isOdd.js";
+export { leastAbsoluteResidue } from "./arithmetic/leastAbsoluteResidue.js";
 export { lcm } from "./arithmetic/lcm.js";
 export { lcmArray } from "./arithmetic/lcmArray.js";
 export { mod } from "./arithmetic/mod.js";
+export { modAdd } from "./arithmetic/modAdd.js";
+export { modDiv } from "./arithmetic/modDiv.js";
+export { modMul } from "./arithmetic/modMul.js";
+export { modSub } from "./arithmetic/modSub.js";
 export { modInverse } from "./arithmetic/modInverse.js";
+export { orderMod } from "./arithmetic/orderMod.js";
 export { powMod } from "./arithmetic/powMod.js";
 export { sign } from "./arithmetic/sign.js";
 export { solveCongruence } from "./arithmetic/solveCongruence.js";

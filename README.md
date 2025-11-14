@@ -38,6 +38,7 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 
 ### Arithmetic
 
+- `ceilDiv(a, b)` – Integer ceiling division `ceil(a / b)` with correct signed behavior
 - `crt(remainders, moduli)` – Chinese Remainder Theorem solution for coprime moduli
 - `divides(a, b)` – Checks if `a` divides `b` (throws if `a = 0`)
 - `divisors(n)` – Returns all positive divisors of a given integer n
@@ -47,10 +48,16 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `gcdArray(arr)` – Computes the GCD of an array of numbers
 - `isEven(n)` – Checks if a number n is even
 - `isOdd(n)` – Checks if a number n is odd
+- `leastAbsoluteResidue(a, m)` – Returns minimal absolute residue in `(-m/2, m/2]` (tie at `m/2` resolves to `+m/2`)
 - `lcm(a, b)` – Least Common Multiple using the formula `lcm(a, b) = |a*b| / gcd(a, b)`
 - `lcmArray(arr)` – Computes the LCM of an array of numbers
 - `mod(a, b)` – Modular remainder (handles negative numbers and BigInts)
+- `modAdd(a, b, m)` – Modular addition `(a + b) mod m` with normalization
+- `modDiv(a, b, m)` – Modular division `a * b⁻¹ (mod m)`; requires `gcd(b, m) = 1`
+- `modMul(a, b, m)` – Modular multiplication `(a * b) mod m` with normalization
+- `modSub(a, b, m)` – Modular subtraction `(a - b) mod m` with normalization
 - `modInverse(a, m)` – Modular multiplicative inverse of a under modulo m
+- `orderMod(a, m)` – Multiplicative order: smallest `k` such that `a^k ≡ 1 (mod m)`; defined when `gcd(a, m) = 1` and `m > 1`
 - `powMod(base, exp, mod)` – Fast modular exponentiation `(base^exp) mod mod`
 - `sign(n)` – Returns the sign of a number n
 - `solveCongruence(a, b, m)` – Solves `a·x ≡ b (mod m)` canonically

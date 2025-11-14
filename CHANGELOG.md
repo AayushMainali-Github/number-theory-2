@@ -5,11 +5,18 @@ All notable changes to this project will be documented in this file.
 ### [0.8.0] - 2025-11-XX - Arithmetic Expansion - ONGOING
 
 - Added arithmetic functions:
+  - `ceilDiv(a, b)` – Integer ceiling division `ceil(a / b)` with correct signed behavior
   - `crt(remainders, moduli)` – Chinese Remainder Theorem for coprime moduli
   - `divides(a, b)` – Checks divisibility (throws if divisor is zero)
   - `floorDiv(a, b)` – Euclidean division returning `{ q, r }` with `0 ≤ r < |b|`
+  - `leastAbsoluteResidue(a, m)` – Minimal absolute residue representative in `(-m/2, m/2]` (tie at `m/2` resolves to `+m/2`)
   - `powMod(base, exp, mod)` – Fast modular exponentiation `(base^exp) mod mod`
+  - `orderMod(a, m)` – Multiplicative order: smallest `k` such that `a^k ≡ 1 (mod m)`; requires `gcd(a, m) = 1` and `m > 1`
   - `solveCongruence(a, b, m)` – Canonical solution to `a·x ≡ b (mod m)`
+  - `modAdd(a, b, m)` – Modular addition `(a + b) mod m` with normalization
+  - `modDiv(a, b, m)` – Modular division `a * b⁻¹ (mod m)`; requires `gcd(b, m) = 1`
+  - `modMul(a, b, m)` – Modular multiplication `(a * b) mod m` with normalization
+  - `modSub(a, b, m)` – Modular subtraction `(a - b) mod m` with normalization
 
 ### [0.7.0] - 2025-11-10 - Combinatorics Expansions
 
