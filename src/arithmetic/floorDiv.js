@@ -15,6 +15,6 @@ export function floorDiv(a, b) {
 
   const absB = b < 0n ? -b : b;
   const r = mod(a, absB); // ensures 0 ≤ r < |b|
-  const q = (a - r) / b;  // exact division for quotient
+  const q = (a - r) / b; // exact division for quotient
   return { q, r };
 }

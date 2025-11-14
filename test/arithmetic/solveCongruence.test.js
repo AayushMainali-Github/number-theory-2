@@ -8,7 +8,7 @@ describe("solveCongruence()", () => {
     const { x, modulo } = solveCongruence(3, 4, 11);
     assert.strictEqual(modulo, 11n);
     assert.strictEqual(x, 5n);
-    assert.strictEqual(((3n * x) - 4n) % 11n, 0n);
+    assert.strictEqual((3n * x - 4n) % 11n, 0n);
   });
 
   // 2. Non-coprime case with solution (gcd divides b)
@@ -16,7 +16,7 @@ describe("solveCongruence()", () => {
     const { x, modulo } = solveCongruence(4, 2, 6);
     assert.strictEqual(modulo, 3n);
     assert.strictEqual(x, 2n);
-    assert.strictEqual(((4n * x) - 2n) % 6n, 0n);
+    assert.strictEqual((4n * x - 2n) % 6n, 0n);
   });
 
   // 3. No solution when gcd does not divide b
@@ -29,14 +29,14 @@ describe("solveCongruence()", () => {
     const { x, modulo } = solveCongruence(3, -7, 11);
     assert.strictEqual(modulo, 11n);
     assert.strictEqual(x, 5n);
-    assert.strictEqual(((3n * x) + 7n) % 11n, 0n);
+    assert.strictEqual((3n * x + 7n) % 11n, 0n);
   });
 
   // 5. Negative a handled correctly
   test("-3x≡4 (mod 11) → valid solution", () => {
     const { x, modulo } = solveCongruence(-3, 4, 11);
     assert.strictEqual(modulo, 11n);
-    assert.strictEqual(((BigInt(-3) * x) - 4n) % 11n, 0n);
+    assert.strictEqual((BigInt(-3) * x - 4n) % 11n, 0n);
     assert.ok(x >= 0n && x < modulo);
   });
 
@@ -45,7 +45,7 @@ describe("solveCongruence()", () => {
     const { x, modulo } = solveCongruence(12, 0, 6);
     assert.strictEqual(modulo, 1n);
     assert.strictEqual(x, 0n);
-    assert.strictEqual(((12n * x) - 0n) % 6n, 0n);
+    assert.strictEqual((12n * x - 0n) % 6n, 0n);
   });
 
   // 7. a % m = 0 but b % m ≠ 0 → no solution
@@ -58,7 +58,7 @@ describe("solveCongruence()", () => {
     const { x, modulo } = solveCongruence(10n, 7, 13);
     assert.strictEqual(modulo, 13n);
     assert.ok(x >= 0n && x < modulo);
-    assert.strictEqual(((10n * x) - 7n) % 13n, 0n);
+    assert.strictEqual((10n * x - 7n) % 13n, 0n);
   });
 
   // 9. Large prime modulus
@@ -66,7 +66,7 @@ describe("solveCongruence()", () => {
     const m = 1000000007n;
     const { x, modulo } = solveCongruence(123456789n, 987654321n, m);
     assert.strictEqual(modulo, m);
-    assert.strictEqual(((123456789n * x) - 987654321n) % m, 0n);
+    assert.strictEqual((123456789n * x - 987654321n) % m, 0n);
     assert.ok(x >= 0n && x < m);
   });
 

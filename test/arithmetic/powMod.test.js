@@ -31,7 +31,7 @@ describe("powMod()", () => {
   // 6. Large exponent correctness vs BigInt
   test("powMod(2,1000,1000000007) matches 2^1000 % m", () => {
     const m = 1000000007n;
-    const expected = (2n ** 1000n) % m;
+    const expected = 2n ** 1000n % m;
     assert.strictEqual(powMod(2, 1000, m), expected);
   });
 
@@ -40,7 +40,7 @@ describe("powMod()", () => {
     const a = 10000000000n;
     const e = 20n;
     const m = 97n;
-    assert.strictEqual(powMod(a, e, m), (a ** e) % m);
+    assert.strictEqual(powMod(a, e, m), a ** e % m);
   });
 
   // 8. Mixed Number and BigInt types
@@ -61,23 +61,23 @@ describe("powMod()", () => {
 
   // 11. Property: (a^e % m) for small e
   test("powMod(7,4,20) equals (7^4)%20", () => {
-    assert.strictEqual(powMod(7, 4, 20), (7n ** 4n) % 20n);
+    assert.strictEqual(powMod(7, 4, 20), 7n ** 4n % 20n);
   });
 
   // 12. Negative base with even exponent returns positive remainder
   test("powMod(-7, 4, 20) equals (abs)^4 % 20", () => {
-    assert.strictEqual(powMod(-7, 4, 20), (7n ** 4n) % 20n);
+    assert.strictEqual(powMod(-7, 4, 20), 7n ** 4n % 20n);
   });
 
   // 13. Negative base with odd exponent (normalized to [0, m))
   test("powMod(-7, 3, 20) equals normalized ((-7)^3)%20", () => {
-    const expected = (((-7n) ** 3n) % 20n + 20n) % 20n;
+    const expected = (((-7n) ** 3n % 20n) + 20n) % 20n;
     assert.strictEqual(powMod(-7, 3, 20), expected);
   });
 
   // 14. Very large values
   test("powMod(10^20, 10, 1009) is consistent", () => {
     const a = 10n ** 20n;
-    assert.strictEqual(powMod(a, 10n, 1009n), (a ** 10n) % 1009n);
+    assert.strictEqual(powMod(a, 10n, 1009n), a ** 10n % 1009n);
   });
 });

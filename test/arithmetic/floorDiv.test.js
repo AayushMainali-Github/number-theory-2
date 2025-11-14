@@ -26,7 +26,7 @@ describe("floorDiv()", () => {
     const { q, r } = floorDiv(7, -3);
     assert.strictEqual(q, -2n);
     assert.strictEqual(r, 1n);
-    assert.strictEqual(7n, (-3n) * q + r);
+    assert.strictEqual(7n, -3n * q + r);
     assert.ok(r >= 0n && r < 3n);
   });
 
@@ -35,7 +35,7 @@ describe("floorDiv()", () => {
     const { q, r } = floorDiv(-7, -3);
     assert.strictEqual(q, 3n);
     assert.strictEqual(r, 2n);
-    assert.strictEqual(-7n, (-3n) * q + r);
+    assert.strictEqual(-7n, -3n * q + r);
     assert.ok(r >= 0n && r < 3n);
   });
 

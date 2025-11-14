@@ -68,8 +68,12 @@ describe("crt()", () => {
 
   // 8. Larger primes, property checks only
   test("property check with large primes", () => {
-    const m1 = 97n, m2 = 101n, m3 = 103n;
-    const r1 = 10n, r2 = 20n, r3 = 30n;
+    const m1 = 97n,
+      m2 = 101n,
+      m3 = 103n;
+    const r1 = 10n,
+      r2 = 20n,
+      r3 = 30n;
     const { x, modulus } = crt([r1, r2, r3], [m1, m2, m3]);
     assert.strictEqual(modulus, m1 * m2 * m3);
     assert.strictEqual(x % m1, r1);

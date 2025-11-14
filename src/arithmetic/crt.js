@@ -12,7 +12,12 @@ import { modInverse } from "./modInverse.js";
  * @returns {{ x: bigint, modulus: bigint }} solution x and combined modulus M
  */
 export function crt(remainders, moduli) {
-  if (!Array.isArray(remainders) || !Array.isArray(moduli) || remainders.length !== moduli.length || remainders.length === 0) {
+  if (
+    !Array.isArray(remainders) ||
+    !Array.isArray(moduli) ||
+    remainders.length !== moduli.length ||
+    remainders.length === 0
+  ) {
     throw new TypeError("crt requires two non-empty arrays of equal length");
   }
 
