@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.8.0] - 2025-11-XX - Arithmetic Expansion - ONGOING
+### [0.8.0] - 2025-11-XX - Arithmetic and Prime Expansion - ONGOING
 
 - Added arithmetic functions:
   - `ceilDiv(a, b)` – Integer ceiling division `ceil(a / b)` with correct signed behavior
@@ -17,6 +17,13 @@ All notable changes to this project will be documented in this file.
   - `modDiv(a, b, m)` – Modular division `a * b⁻¹ (mod m)`; requires `gcd(b, m) = 1`
   - `modMul(a, b, m)` – Modular multiplication `(a * b) mod m` with normalization
   - `modSub(a, b, m)` – Modular subtraction `(a - b) mod m` with normalization
+
+- Added prime functions:
+  - `nthPrime(k)` – Returns the k-th prime (BigInt), k ≥ 1
+  - `prevPrime(n)` – Returns the largest prime ≤ n (null if n < 2)
+  - `primeGapAt(n)` – Returns `{ p, next, gap }` around n where `p` ≤ n and `next` > p
+  - `sumOfPrimes(n)` – Returns the BigInt sum of all primes ≤ n
+  - `twinPrimesInRange(a, b)` – Returns all twin prime pairs (p, p+2) in [a, b]
 
 ### [0.7.0] - 2025-11-10 - Combinatorics Expansions
 

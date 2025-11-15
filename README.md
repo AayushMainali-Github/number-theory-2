@@ -130,10 +130,15 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)
 - `isPrime(n)` – Checks if a number is prime
 - `nextPrime(n)` – Finds the smallest prime number greater than n
+- `nthPrime(k)` – Returns the k-th prime (BigInt), k ≥ 1
+- `prevPrime(n)` – Returns the largest prime ≤ n (null if n < 2)
 - `primeFactorization(n)` – Returns the full prime factorization of n as an array of objects `{ prime, power }`.
 - `primeFactors(n)` – Returns the distinct prime factors of n as an array of BigInts.
+- `primeGapAt(n)` – Returns `{ p, next, gap }` around n where `p` ≤ n and `next` > p
 - `sieve(n)` – Generates all primes up to n using the Sieve of Eratosthenes
 - `sieveRange(a, b)` – Generates all primes between a and b (inclusive) using the Sieve of Eratosthenes
+- `sumOfPrimes(n)` – Returns the BigInt sum of all primes ≤ n
+- `twinPrimesInRange(a, b)` – Returns all twin prime pairs (p, p+2) in [a, b]
 
 ---
 
