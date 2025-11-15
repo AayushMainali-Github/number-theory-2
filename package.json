@@ -1,6 +1,6 @@
 {
   "name": "number-theory-2",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A modern JavaScript library for number theory and modular arithmetic — including primes, totients, modular inverses, and more.",
   "main": "src/index.js",
   "type": "module",
