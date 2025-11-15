@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.8.0] - 2025-11-XX - Arithmetic and Prime Expansion - ONGOING
+### [0.8.0] - 2025-11-16 - Arithmetic and Prime Expansion
 
 - Added arithmetic functions:
   - `ceilDiv(a, b)` – Integer ceiling division `ceil(a / b)` with correct signed behavior
