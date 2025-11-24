@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.9.0] - 2025-11-XX - Prime Expansion - ONGOING
+
+- Added prime functions:
+  - `cousinPrimesInRange(a, b)` – Returns cousin prime pairs (p, p+4) in [a, b]
+  - `isPrimePower(n)` – Returns `{ p, k }` if `n = p^k` with `k ≥ 2`, else `null`
+  - `largestPrimeFactor(n)` – Returns the largest prime factor of n (BigInt; null if n < 2)
+  - `maxPrimeGapUpTo(n)` – Largest gap between consecutive primes ≤ n as `{ gap, from, to }`
+  - `sexyPrimesInRange(a, b)` – Returns sexy prime pairs (p, p+6) in [a, b]
+  - `smallestPrimeFactor(n)` – Returns the smallest prime factor of n (BigInt; null if n < 2)
+  - `sophieGermainPrimesInRange(a, b)` – Returns primes `p` where `2p + 1` is prime
+  - `twinPrimeCountInRange(a, b)` – Counts twin prime pairs (p, p+2) in [a, b]
+
 ### [0.8.0] - 2025-11-16 - Arithmetic and Prime Expansion
 
 - Added arithmetic functions:
