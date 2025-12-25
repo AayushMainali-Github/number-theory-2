@@ -2,13 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.9.0] - 2025-11-XX - Prime Expansion - ONGOING
+### [0.9.0] - 2025-12-XX - Prime Expansion - ONGOING
 
 - Added prime functions:
   - `cousinPrimesInRange(a, b)` – Returns cousin prime pairs (p, p+4) in [a, b]
+  - `isFermatPrime(n)` – Determines if a number is a Fermat prime
+  - `isLucasLehmer(p)` – Lucas-Lehmer primality test for Mersenne numbers
+  - `isMersennePrime(n)` – Determines if a number is a Mersenne prime
+  - `isMillerRabin(n, k)` – Probabilistic primality test
   - `isPrimePower(n)` – Returns `{ p, k }` if `n = p^k` with `k ≥ 2`, else `null`
+  - `isSafePrime(n)` – Determines if a prime is a safe prime
+  - `jacobiSymbol(a, n)` – Computes the Jacobi symbol (a|n)
   - `largestPrimeFactor(n)` – Returns the largest prime factor of n (BigInt; null if n < 2)
+  - `legendreSymbol(a, p)` – Computes the Legendre symbol (a|p)
   - `maxPrimeGapUpTo(n)` – Largest gap between consecutive primes ≤ n as `{ gap, from, to }`
+  - `pollardRho(n)` – Pollard's rho integer factorization algorithm
   - `sexyPrimesInRange(a, b)` – Returns sexy prime pairs (p, p+6) in [a, b]
   - `smallestPrimeFactor(n)` – Returns the smallest prime factor of n (BigInt; null if n < 2)
   - `sophieGermainPrimesInRange(a, b)` – Returns primes `p` where `2p + 1` is prime

@@ -129,16 +129,24 @@ console.log(fibonacci(10)); // ➜ [0n, 1n, 1n, 2n, 3n, 5n, 8n, 13n, 21n, 34n, 5
 - `countPrimesInRange(a, b)` – Counts the number of prime numbers between a and b (inclusive)
 - `cousinPrimesInRange(a, b)` – Returns cousin prime pairs (p, p+4) in [a, b]
 - `isCoprime(a, b)` – Checks whether two integers are coprime (i.e., gcd(a, b) = 1)
+- `isFermatPrime(n)` – Checks if a number is a Fermat prime
+- `isLucasLehmer(p)` – Lucas-Lehmer primality test for Mersenne numbers
+- `isMillerRabin(n, k)` – Miller-Rabin probabilistic primality test
+- `isMersennePrime(n)` – Checks if a number is a Mersenne prime
 - `isPrime(n)` – Checks if a number is prime
 - `isPrimePower(n)` – Returns `{ p, k }` if `n = p^k` with `k ≥ 2`, else `null`
+- `isSafePrime(n)` – Checks if a prime is a safe prime
+- `jacobiSymbol(a, n)` – Computes the Jacobi symbol (a|n)
 - `largestPrimeFactor(n)` – Returns the largest prime factor of n (BigInt; null if n < 2)
+- `legendreSymbol(a, p)` – Computes the Legendre symbol (a|p)
+- `maxPrimeGapUpTo(n)` – Largest gap between consecutive primes ≤ n as `{ gap, from, to }`
 - `nextPrime(n)` – Finds the smallest prime number greater than n
 - `nthPrime(k)` – Returns the k-th prime (BigInt), k ≥ 1
+- `pollardRho(n)` – Pollard's rho integer factorization algorithm
 - `prevPrime(n)` – Returns the largest prime ≤ n (null if n < 2)
 - `primeFactorization(n)` – Returns the full prime factorization of n as an array of objects `{ prime, power }`.
 - `primeFactors(n)` – Returns the distinct prime factors of n as an array of BigInts.
 - `primeGapAt(n)` – Returns `{ p, next, gap }` around n where `p` ≤ n and `next` > p
-- `maxPrimeGapUpTo(n)` – Largest gap between consecutive primes ≤ n as `{ gap, from, to }`
 - `sexyPrimesInRange(a, b)` – Returns sexy prime pairs (p, p+6) in [a, b]
 - `sieve(n)` – Generates all primes up to n using the Sieve of Eratosthenes
 - `sieveRange(a, b)` – Generates all primes between a and b (inclusive) using the Sieve of Eratosthenes
