@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-### [0.9.0] - 2025-12-XX - Prime Expansion - ONGOING
+### [0.9.0] - 2025-12-XX - Prime and Arithmetic Expansion - ONGOING
+
+- Added arithmetic functions:
+  - `discreteLog(a, b, m)` – Solves the discrete logarithm problem a^x ≡ b (mod m)
+  - `fromContinuedFraction(arr)` – Converts a continued fraction to a rational
+  - `isPrimitiveRoot(g, n)` – Checks if g is a primitive root modulo n
+  - `modInverseArray(arr, m)` – Batch modular inversion of an array
+  - `modSqrt(a, p)` – Modular square root using Tonelli-Shanks algorithm
+  - `primitiveRoot(n)` – Finds the smallest primitive root modulo n
+  - `toContinuedFraction(n, d)` – Converts a rational to a continued fraction
 
 - Added prime functions:
   - `cousinPrimesInRange(a, b)` – Returns cousin prime pairs (p, p+4) in [a, b]
